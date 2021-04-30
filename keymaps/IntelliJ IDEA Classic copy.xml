@@ -28,6 +28,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
   <action id="ExpressionTypeInfo" />
+  <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift f3" />
   </action>
@@ -42,9 +43,15 @@
     <mouse-shortcut keystroke="button2" />
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+  </action>
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="meta alt button1" />
     <keyboard-shortcut first-keystroke="meta alt s" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="shift alt e" />
@@ -56,6 +63,7 @@
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="alt escape" />
   </action>
+  <action id="IdeaVim.ReloadVimRc.reload" />
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
   <action id="MethodHierarchy.ImplementMethodAction" />
@@ -83,6 +91,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
   <action id="Scala.TypeInfo" />
+  <action id="ScalaConsole.Clean">
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>

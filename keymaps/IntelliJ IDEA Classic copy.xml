@@ -18,11 +18,17 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
   <action id="Console.TableResult.DeleteRows" />
   <action id="EditorContextInfo" />
   <action id="EditorDeleteLine" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta i" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
   <action id="ExecuteInPyConsoleAction">
     <keyboard-shortcut first-keystroke="shift ctrl e" />
@@ -60,6 +66,9 @@
     <mouse-shortcut keystroke="shift meta button1" />
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
+  <action id="GuiDesigner.ShrinkSelection">
+    <keyboard-shortcut first-keystroke="shift meta i" />
+  </action>
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="alt escape" />
   </action>
@@ -76,6 +85,13 @@
   <action id="Play2.TypeInfo" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="meta j" />
+  </action>
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="shift alt d" />
+  </action>
+  <action id="QuickJavaDoc">
+    <mouse-shortcut keystroke="control button2" />
+    <keyboard-shortcut first-keystroke="alt h" />
   </action>
   <action id="ReplaceInPath" />
   <action id="RunClass">
@@ -103,10 +119,16 @@
   <action id="ShowErrorDescription">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
+  <action id="SmartUnSelect">
+    <keyboard-shortcut first-keystroke="shift meta i" />
+  </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
   <action id="Synchronize">
     <keyboard-shortcut first-keystroke="meta y" />
+  </action>
+  <action id="TableResult.ShrinkSelection">
+    <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
 </keymap>

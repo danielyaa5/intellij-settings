@@ -3,7 +3,7 @@
     <property name="created">2021-04-29T18:05:06</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2020.3.3.0.0</property>
-    <property name="modified">2021-04-29T18:23:44</property>
+    <property name="modified">2021-04-29T18:41:26</property>
     <property name="originalScheme">Monocai</property>
   </metaInfo>
   <colors>
@@ -38,6 +38,7 @@
     <option name="SELECTED_TEARLINE_COLOR" value="cc9900" />
     <option name="SELECTION_BACKGROUND" value="214283" />
     <option name="SELECTION_FOREGROUND" value="" />
+    <option name="ScrollBar.Mac.thumbColor" value="2d2a2fdf" />
     <option name="TAB_UNDERLINE" value="3c96ac" />
     <option name="TEARLINE_COLOR" value="5b5a4e" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="464c43" />

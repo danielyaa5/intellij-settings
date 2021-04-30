@@ -1,5 +1,38 @@
 <keymap version="1" name="IntelliJ IDEA Classic copy" parent="Mac OS X">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta h" />
+  </action>
+  <action id="CheckinProject" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="Force touch" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
+  <action id="GotoImplementation">
+    <mouse-shortcut keystroke="meta alt button1" />
+    <keyboard-shortcut first-keystroke="meta alt s" />
+  </action>
+  <action id="GotoTypeDeclaration">
+    <mouse-shortcut keystroke="shift meta button1" />
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="InsertLiveTemplate" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="meta k" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="SaveAll" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="shift meta f" />
+  </action>
+  <action id="SearchEverywhere.PrevTab">
+    <keyboard-shortcut first-keystroke="meta j" />
   </action>
 </keymap>

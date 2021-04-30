@@ -27,6 +27,7 @@
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
+  <action id="EditorToggleCase" />
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
@@ -35,8 +36,15 @@
   </action>
   <action id="ExpressionTypeInfo" />
   <action id="ExternalSystem.ProjectRefreshAction" />
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="shift meta f" />
+  </action>
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift f3" />
+  </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="alt f7" />
+    <keyboard-shortcut first-keystroke="meta u" />
   </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta l" />
@@ -61,6 +69,9 @@
   </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="shift alt e" />
+  </action>
+  <action id="GotoSuperMethod">
+    <keyboard-shortcut first-keystroke="shift meta u" />
   </action>
   <action id="GotoTest">
     <keyboard-shortcut first-keystroke="meta y" />
@@ -115,9 +126,6 @@
   <action id="Scala.TypeInfo" />
   <action id="ScalaConsole.Clean">
     <keyboard-shortcut first-keystroke="meta l" />
-  </action>
-  <action id="SearchEverywhere">
-    <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
   <action id="SearchEverywhere.PrevTab">
     <keyboard-shortcut first-keystroke="meta j" />

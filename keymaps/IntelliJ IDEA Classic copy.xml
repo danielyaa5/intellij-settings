@@ -13,6 +13,12 @@
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
   <action id="EditorContextInfo" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="meta i" />
+  </action>
+  <action id="ExecuteInPyConsoleAction">
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
   <action id="ExpressionTypeInfo" />
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift f3" />
@@ -20,6 +26,8 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="Generate.Missing.Members.ES6" />
+  <action id="Generate.Missing.Members.TypeScript" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="meta button1" />
     <mouse-shortcut keystroke="Force touch" />
@@ -30,11 +38,16 @@
     <mouse-shortcut keystroke="meta alt button1" />
     <keyboard-shortcut first-keystroke="meta alt s" />
   </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="shift alt e" />
+  </action>
   <action id="GotoTypeDeclaration">
     <mouse-shortcut keystroke="shift meta button1" />
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
+  <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
+  <action id="MethodHierarchy.ImplementMethodAction" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta k" />
   </action>
@@ -54,11 +67,21 @@
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
   <action id="SaveAll" />
+  <action id="Scala.ShowImplicits">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
+  </action>
   <action id="Scala.TypeInfo" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
   <action id="SearchEverywhere.PrevTab">
     <keyboard-shortcut first-keystroke="meta j" />
+  </action>
+  <action id="ShowErrorDescription">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
 </keymap>

@@ -12,7 +12,9 @@
   <action id="CloseAllToTheRight">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
+  <action id="Console.TableResult.DeleteRows" />
   <action id="EditorContextInfo" />
+  <action id="EditorDeleteLine" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
@@ -83,5 +85,8 @@
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
+  <action id="Synchronize">
+    <keyboard-shortcut first-keystroke="meta y" />
   </action>
 </keymap>

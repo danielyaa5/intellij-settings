@@ -3,7 +3,7 @@
     <property name="created">2021-04-29T19:11:46</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2020.3.4.0.0</property>
-    <property name="modified">2021-04-29T19:17:02</property>
+    <property name="modified">2021-04-29T19:59:29</property>
     <property name="originalScheme">_@user_Monocai</property>
   </metaInfo>
   <colors>
@@ -32,6 +32,7 @@
     <option name="INDENT_GUIDE" value="373737" />
     <option name="METHOD_SEPARATORS_COLOR" value="5b5a4e" />
     <option name="MODIFIED_LINES_COLOR" value="415f69" />
+    <option name="NOTIFICATION_BACKGROUND" value="6d6855" />
     <option name="RECENT_LOCATIONS_SELECTION" value="214283" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
     <option name="RIGHT_MARGIN_COLOR" value="323232" />

@@ -3,6 +3,20 @@
     <keyboard-shortcut first-keystroke="meta h" />
   </action>
   <action id="CheckinProject" />
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift ctrl q" />
+  </action>
+  <action id="CloseAllToTheLeft">
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+  </action>
+  <action id="CloseAllToTheRight">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
+  <action id="EditorContextInfo" />
+  <action id="ExpressionTypeInfo" />
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift f3" />
+  </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
@@ -24,11 +38,23 @@
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta k" />
   </action>
+  <action id="PinActiveTab">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="Play2.TypeInfo" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
+  <action id="ReplaceInPath" />
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="shift ctrl f10" />
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="Runner.CloseAllUnpinnedViews">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
   <action id="SaveAll" />
+  <action id="Scala.TypeInfo" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>

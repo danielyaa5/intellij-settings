@@ -3,7 +3,7 @@
     <property name="created">2021-04-29T19:11:46</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2020.3.4.0.0</property>
-    <property name="modified">2021-05-04T13:22:24</property>
+    <property name="modified">2021-05-04T14:50:40</property>
     <property name="originalScheme">_@user_Monocai</property>
   </metaInfo>
   <colors>
@@ -513,6 +513,11 @@
         <option name="EFFECT_COLOR" value="c27310" />
         <option name="ERROR_STRIPE_COLOR" value="cc7110" />
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="GO_FUNCTION_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="fc9867" />
       </value>
     </option>
     <option name="GROOVY_KEYWORD" baseAttributes="JAVA_KEYWORD" />

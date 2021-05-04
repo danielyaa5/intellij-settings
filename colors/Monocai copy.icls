@@ -3,7 +3,7 @@
     <property name="created">2021-04-29T19:11:46</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2020.3.4.0.0</property>
-    <property name="modified">2021-05-04T13:22:24</property>
+    <property name="modified">2021-05-04T14:19:03</property>
     <property name="originalScheme">_@user_Monocai</property>
   </metaInfo>
   <colors>
@@ -31,6 +31,7 @@
     <option name="FILESTATUS_modifiedOutside" value="6897bb" />
     <option name="GUTTER_BACKGROUND" value="2d2a2e" />
     <option name="INDENT_GUIDE" value="373737" />
+    <option name="INFORMATION_HINT" value="4b4d4d" />
     <option name="METHOD_SEPARATORS_COLOR" value="5b5a4e" />
     <option name="MODIFIED_LINES_COLOR" value="415f69" />
     <option name="NOTIFICATION_BACKGROUND" value="6d6855" />
@@ -106,6 +107,12 @@
       <value>
         <option name="FOREGROUND" value="74715e" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="CODE_LENS_BORDER_COLOR">
+      <value>
+        <option name="FOREGROUND" value="820ad2" />
+        <option name="EFFECT_COLOR" value="595959" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_OUTPUT">
@@ -513,6 +520,11 @@
         <option name="EFFECT_COLOR" value="c27310" />
         <option name="ERROR_STRIPE_COLOR" value="cc7110" />
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="GO_FUNCTION_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="fc9867" />
       </value>
     </option>
     <option name="GROOVY_KEYWORD" baseAttributes="JAVA_KEYWORD" />

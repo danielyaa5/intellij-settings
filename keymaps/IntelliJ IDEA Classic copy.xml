@@ -2,10 +2,6 @@
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta h" />
   </action>
-  <action id="ChangeSignature">
-    <keyboard-shortcut first-keystroke="meta f6" />
-    <keyboard-shortcut first-keystroke="shift alt v" />
-  </action>
   <action id="CheckinProject" />
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="meta escape" />
@@ -110,10 +106,6 @@
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="control button2" />
     <keyboard-shortcut first-keystroke="alt h" />
-  </action>
-  <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="shift f6" />
-    <keyboard-shortcut first-keystroke="alt v" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />

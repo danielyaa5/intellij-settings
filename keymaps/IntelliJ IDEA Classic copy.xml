@@ -19,6 +19,9 @@
   <action id="CloseAllToTheRight">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
+  <action id="CloseAllUnpinnedEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="meta w" />
   </action>

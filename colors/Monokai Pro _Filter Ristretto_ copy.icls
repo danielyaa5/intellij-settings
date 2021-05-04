@@ -3,7 +3,7 @@
     <property name="created">2021-05-04T15:43:46</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2021.1.0.0</property>
-    <property name="modified">2021-05-04T15:46:25</property>
+    <property name="modified">2021-05-04T16:02:33</property>
     <property name="originalScheme">_@user_Monokai Pro (Filter Ristretto)</property>
   </metaInfo>
   <colors>
@@ -644,7 +644,7 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="fffce0" />
+        <option name="FOREGROUND" value="cfc9af" />
       </value>
     </option>
     <option name="DEFAULT_TAG">

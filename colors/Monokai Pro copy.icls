@@ -3,7 +3,7 @@
     <property name="created">2021-05-04T14:44:29</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2021.1.0.0</property>
-    <property name="modified">2021-05-04T15:17:17</property>
+    <property name="modified">2021-05-04T15:19:47</property>
     <property name="originalScheme">_@user_Monokai Pro</property>
   </metaInfo>
   <colors>
@@ -3420,6 +3420,7 @@
     <option name="TAB_SELECTED">
       <value>
         <option name="FOREGROUND" value="ffd866" />
+        <option name="BACKGROUND" value="221f22" />
       </value>
     </option>
     <option name="TAB_SELECTED_INACTIVE">

@@ -156,4 +156,8 @@
   <action id="TableResult.ShrinkSelection">
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
+  <action id="uk.co.ben_gibson.git.link.UI.Action.Menu.MenuAction.Clipboard">
+    <keyboard-shortcut first-keystroke="shift meta c" />
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+  </action>
 </keymap>

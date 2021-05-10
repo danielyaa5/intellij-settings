@@ -7,11 +7,12 @@
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.yaml" />
     <mask>!README</mask>
     <mask>!README.MD,!CHANGES.MD</mask>
     <mask>!*.log</mask>
     <mask>*</mask>
-    <mask>*.yaml</mask>
     <mask>*.go</mask>
+    <mask>*.yaml</mask>
   </component>
 </application>

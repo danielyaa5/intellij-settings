@@ -37,6 +37,9 @@
   </action>
   <action id="Console.TableResult.DeleteRows" />
   <action id="EditorContextInfo" />
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt minus" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl back_space" />
   </action>
@@ -45,6 +48,9 @@
   </action>
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt equals" />
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta i" />
@@ -160,6 +166,7 @@
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="shift f11" />
     <keyboard-shortcut first-keystroke="meta alt b" />
+    <keyboard-shortcut first-keystroke="shift meta b" />
   </action>
   <action id="ShowErrorDescription">
     <keyboard-shortcut first-keystroke="ctrl e" />

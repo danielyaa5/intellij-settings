@@ -75,13 +75,16 @@
   </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
-    <keyboard-shortcut first-keystroke="meta u" />
+    <keyboard-shortcut first-keystroke="shift meta u" />
   </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="Generate.Missing.Members.ES6" />
   <action id="Generate.Missing.Members.TypeScript" />
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="meta button1" />
     <mouse-shortcut keystroke="Force touch" />
@@ -102,10 +105,10 @@
     <keyboard-shortcut first-keystroke="shift alt e" />
   </action>
   <action id="GotoSuperMethod">
-    <keyboard-shortcut first-keystroke="shift meta u" />
+    <keyboard-shortcut first-keystroke="meta alt s" />
   </action>
   <action id="GotoTest">
-    <keyboard-shortcut first-keystroke="meta y" />
+    <keyboard-shortcut first-keystroke="ctrl alt t" />
   </action>
   <action id="GotoTypeDeclaration">
     <mouse-shortcut keystroke="shift meta button1" />
@@ -172,6 +175,10 @@
   </action>
   <action id="ShowErrorDescription">
     <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="ShowUsages">
+    <keyboard-shortcut first-keystroke="meta alt f7" />
+    <keyboard-shortcut first-keystroke="meta u" />
   </action>
   <action id="SmartUnSelect">
     <keyboard-shortcut first-keystroke="shift meta i" />

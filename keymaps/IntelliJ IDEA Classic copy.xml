@@ -2,6 +2,7 @@
   <action id="$Delete">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="AutoIndentLines" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta h" />
   </action>
@@ -96,13 +97,13 @@
   </action>
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="meta alt button1" />
-    <keyboard-shortcut first-keystroke="shift meta s" />
+    <keyboard-shortcut first-keystroke="meta alt i" />
   </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
   <action id="GotoNextError">
-    <keyboard-shortcut first-keystroke="shift alt e" />
+    <keyboard-shortcut first-keystroke="alt e" />
   </action>
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="meta alt s" />
@@ -186,6 +187,7 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
+  <action id="SwitcherIterateItems" />
   <action id="Synchronize">
     <keyboard-shortcut first-keystroke="alt y" />
   </action>

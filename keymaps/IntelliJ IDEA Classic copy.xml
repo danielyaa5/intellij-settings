@@ -113,6 +113,11 @@
   </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="alt e" />
+    <keyboard-shortcut first-keystroke="meta alt e" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="shift f2" />
+    <keyboard-shortcut first-keystroke="shift meta alt e" />
   </action>
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="meta alt s" />

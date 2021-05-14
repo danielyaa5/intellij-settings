@@ -38,6 +38,7 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta divide" />
     <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
   <action id="Console.TableResult.DeleteRows" />
   <action id="EditorContextInfo" />

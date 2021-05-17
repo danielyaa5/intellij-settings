@@ -220,6 +220,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt escape" />
   </action>
   <action id="UsageGrouping.FileStructure" />
+  <action id="com.mnw.tabmover.actions.TogglePinOnAllOpenTabsAction">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
   <action id="uk.co.ben_gibson.git.link.UI.Action.Menu.MenuAction.Clipboard">
     <keyboard-shortcut first-keystroke="shift meta c" />
     <keyboard-shortcut first-keystroke="shift ctrl c" />

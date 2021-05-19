@@ -45,6 +45,10 @@
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
   <action id="Console.TableResult.DeleteRows" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="EditorContextInfo" />
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt minus" />
@@ -143,6 +147,10 @@
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
   <action id="JumpToLastChange" />
+  <action id="JumpToLastWindow">
+    <keyboard-shortcut first-keystroke="f12" />
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
   <action id="MethodHierarchy.ImplementMethodAction" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta k" />

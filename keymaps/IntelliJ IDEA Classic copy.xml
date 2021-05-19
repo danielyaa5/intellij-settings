@@ -11,6 +11,10 @@
     <keyboard-shortcut first-keystroke="shift alt v" />
   </action>
   <action id="CheckinProject" />
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="shift alt f10" />
+    <keyboard-shortcut first-keystroke="shift meta alt r" />
+  </action>
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="meta escape" />
   </action>
@@ -162,12 +166,19 @@
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
-    <keyboard-shortcut first-keystroke="alt v" />
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
+  <action id="RenameFile">
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="ReplaceInPath" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="meta alt r" />
+  </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="shift ctrl f10" />
     <keyboard-shortcut first-keystroke="ctrl r" />
@@ -222,6 +233,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt escape" />
   </action>
   <action id="UsageGrouping.FileStructure" />
+  <action id="Vcs.QuickListPopupAction" />
   <action id="com.mnw.tabmover.actions.TogglePinOnAllOpenTabsAction">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>

@@ -46,6 +46,10 @@
     <keyboard-shortcut first-keystroke="meta slash" />
   </action>
   <action id="Console.TableResult.DeleteRows" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="meta alt d" />
+  </action>
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
     <keyboard-shortcut first-keystroke="ctrl enter" />

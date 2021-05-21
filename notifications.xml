@@ -3,5 +3,6 @@
     <notification groupId="Docker: Dockerfile detection" displayType="NONE" shouldLog="false" />
     <notification groupId="IDE and Plugin Updates" />
     <notification groupId="New JVM Backend" />
+    <notification groupId="Vcs Important Messages" />
   </component>
 </application>

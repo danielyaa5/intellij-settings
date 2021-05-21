@@ -140,13 +140,16 @@
   </action>
   <action id="GotoTypeDeclaration">
     <mouse-shortcut keystroke="shift meta button1" />
-    <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
   <action id="GuiDesigner.ShrinkSelection">
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
-  <action id="HideAllWindows">
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="shift escape" />
     <keyboard-shortcut first-keystroke="alt escape" />
+  </action>
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="ctrl escape" />
   </action>
   <action id="IdeaVim.ReloadVimRc.reload" />
   <action id="ImplementMethods" />
@@ -225,6 +228,9 @@
   <action id="SmartUnSelect">
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
@@ -240,10 +246,10 @@
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
   <action id="Unsplit">
-    <keyboard-shortcut first-keystroke="ctrl escape" />
+    <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
   <action id="UnsplitAll">
-    <keyboard-shortcut first-keystroke="ctrl alt escape" />
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
   <action id="UsageGrouping.FileStructure" />
   <action id="Vcs.QuickListPopupAction" />

@@ -1,5 +1,5 @@
 <application>
   <component name="BlazeUserSettings">
-    <option name="bazelBinaryPath" value="$USER_HOME$/Snapchat/pb_schema/bazel" />
+    <option name="bazelBinaryPath" value="/usr/local/bin/bazel" />
   </component>
 </application>

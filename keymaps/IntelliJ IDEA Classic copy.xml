@@ -66,7 +66,7 @@
   </action>
   <action id="EditorContextInfo" />
   <action id="EditorDecreaseFontSize">
-    <keyboard-shortcut first-keystroke="shift ctrl meta alt minus" />
+    <keyboard-shortcut first-keystroke="shift meta alt minus" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl back_space" />
@@ -78,7 +78,7 @@
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="EditorIncreaseFontSize">
-    <keyboard-shortcut first-keystroke="shift ctrl meta alt equals" />
+    <keyboard-shortcut first-keystroke="shift meta alt equals" />
   </action>
   <action id="EditorResetFontSize">
     <keyboard-shortcut first-keystroke="alt minus" />
@@ -271,6 +271,7 @@
   </action>
   <action id="UsageGrouping.FileStructure" />
   <action id="Vcs.QuickListPopupAction" />
+  <action id="ZoomCurrentWindow" />
   <action id="com.mnw.tabmover.actions.TogglePinOnAllOpenTabsAction">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>

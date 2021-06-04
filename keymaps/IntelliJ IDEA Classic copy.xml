@@ -176,6 +176,9 @@
   <action id="MethodUp">
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="shift meta comma" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta k" />
   </action>
@@ -200,12 +203,16 @@
     <mouse-shortcut keystroke="control button2" />
     <keyboard-shortcut first-keystroke="alt h" />
   </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift meta alt t" />
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
   <action id="RenameFile">
-    <keyboard-shortcut first-keystroke="shift ctrl v" />
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />

@@ -227,6 +227,9 @@
   <action id="ScalaConsole.Clean">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
   <action id="SearchEverywhere.PrevTab">
     <keyboard-shortcut first-keystroke="meta j" />
   </action>

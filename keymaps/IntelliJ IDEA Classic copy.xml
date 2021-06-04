@@ -271,10 +271,10 @@
     <keyboard-shortcut first-keystroke="meta alt b" />
   </action>
   <action id="Unsplit">
-    <keyboard-shortcut first-keystroke="ctrl u" />
+    <keyboard-shortcut first-keystroke="meta alt u" />
   </action>
   <action id="UnsplitAll">
-    <keyboard-shortcut first-keystroke="shift ctrl u" />
+    <keyboard-shortcut first-keystroke="shift meta alt u" />
   </action>
   <action id="UsageGrouping.FileStructure" />
   <action id="Vcs.QuickListPopupAction" />

@@ -285,6 +285,9 @@
   </action>
   <action id="UsageGrouping.FileStructure" />
   <action id="Vcs.QuickListPopupAction" />
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="meta alt g" />
+  </action>
   <action id="ZoomCurrentWindow" />
   <action id="com.mnw.tabmover.actions.TogglePinOnAllOpenTabsAction">
     <keyboard-shortcut first-keystroke="ctrl alt p" />

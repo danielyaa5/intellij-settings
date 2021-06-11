@@ -211,6 +211,9 @@
     <mouse-shortcut keystroke="control button2" />
     <keyboard-shortcut first-keystroke="alt h" />
   </action>
+  <action id="QuickTypeDefinition">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
@@ -254,6 +257,7 @@
   <action id="SearchEverywhere.PrevTab">
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
+  <action id="ServiceView.GroupByContributor" />
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="shift f11" />
     <keyboard-shortcut first-keystroke="ctrl alt b" />

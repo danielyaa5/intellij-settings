@@ -59,6 +59,9 @@
   <action id="Debugger.RemoveAllBreakpointsInFile">
     <keyboard-shortcut first-keystroke="shift meta alt b" />
   </action>
+  <action id="Debugger.StepOutOfBlock">
+    <keyboard-shortcut first-keystroke="shift meta alt s" />
+  </action>
   <action id="EditBookmark">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
   </action>
@@ -222,6 +225,10 @@
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="ReplaceInPath" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f9" />
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="meta alt r" />
@@ -266,6 +273,18 @@
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f8" />
+    <keyboard-shortcut first-keystroke="meta alt s" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f8" />
+    <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="SwitcherIterateItems" />
   <action id="Synchronize">

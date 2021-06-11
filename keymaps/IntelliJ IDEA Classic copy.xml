@@ -19,8 +19,11 @@
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="meta escape" />
   </action>
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
   <action id="CloseAllEditorsButActive">
-    <keyboard-shortcut first-keystroke="shift ctrl q" />
+    <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
   <action id="CloseAllToTheLeft">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
@@ -145,6 +148,9 @@
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="meta alt s" />
   </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
   <action id="GotoTest">
     <keyboard-shortcut first-keystroke="ctrl alt t" />
   </action>
@@ -204,7 +210,6 @@
     <keyboard-shortcut first-keystroke="alt h" />
   </action>
   <action id="Refactorings.QuickListPopupAction">
-    <keyboard-shortcut first-keystroke="shift meta alt t" />
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
   <action id="RenameElement">
@@ -239,7 +244,7 @@
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="SearchEverywhere">
-    <keyboard-shortcut first-keystroke="shift meta n" />
+    <keyboard-shortcut first-keystroke="shift meta a" />
   </action>
   <action id="SearchEverywhere.PrevTab">
     <keyboard-shortcut first-keystroke="meta j" />

@@ -51,7 +51,7 @@
   </action>
   <action id="Console.TableResult.DeleteRows" />
   <action id="Debug">
-    <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="meta alt d" />
   </action>
   <action id="Debugger.RemoveAllBreakpoints">
     <keyboard-shortcut first-keystroke="ctrl meta alt b" />

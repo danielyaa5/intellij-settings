@@ -11,6 +11,7 @@
     <keyboard-shortcut first-keystroke="shift alt v" />
   </action>
   <action id="CheckinProject" />
+  <action id="ChooseNextSubsequentPropertyValueEditorAction" />
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="shift alt f10" />
     <keyboard-shortcut first-keystroke="shift meta alt r" />
@@ -18,8 +19,11 @@
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="meta escape" />
   </action>
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
   <action id="CloseAllEditorsButActive">
-    <keyboard-shortcut first-keystroke="shift ctrl q" />
+    <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
   <action id="CloseAllToTheLeft">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
@@ -47,7 +51,6 @@
   </action>
   <action id="Console.TableResult.DeleteRows" />
   <action id="Debug">
-    <keyboard-shortcut first-keystroke="shift f9" />
     <keyboard-shortcut first-keystroke="meta alt d" />
   </action>
   <action id="Debugger.RemoveAllBreakpoints">
@@ -55,6 +58,9 @@
   </action>
   <action id="Debugger.RemoveAllBreakpointsInFile">
     <keyboard-shortcut first-keystroke="shift meta alt b" />
+  </action>
+  <action id="Debugger.StepOutOfBlock">
+    <keyboard-shortcut first-keystroke="shift meta alt s" />
   </action>
   <action id="EditBookmark">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
@@ -65,7 +71,7 @@
   </action>
   <action id="EditorContextInfo" />
   <action id="EditorDecreaseFontSize">
-    <keyboard-shortcut first-keystroke="shift ctrl meta alt minus" />
+    <keyboard-shortcut first-keystroke="shift meta alt minus" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl back_space" />
@@ -77,7 +83,7 @@
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="EditorIncreaseFontSize">
-    <keyboard-shortcut first-keystroke="shift ctrl meta alt equals" />
+    <keyboard-shortcut first-keystroke="shift meta alt equals" />
   </action>
   <action id="EditorResetFontSize">
     <keyboard-shortcut first-keystroke="alt minus" />
@@ -88,6 +94,10 @@
   <action id="EditorToggleCase" />
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift meta i" />
+  </action>
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="alt f8" />
+    <keyboard-shortcut first-keystroke="meta alt e" />
   </action>
   <action id="ExecuteInPyConsoleAction">
     <keyboard-shortcut first-keystroke="shift ctrl e" />
@@ -144,6 +154,9 @@
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="meta alt s" />
   </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
   <action id="GotoTest">
     <keyboard-shortcut first-keystroke="ctrl alt t" />
   </action>
@@ -168,7 +181,16 @@
     <keyboard-shortcut first-keystroke="f12" />
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
   <action id="MethodHierarchy.ImplementMethodAction" />
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="shift meta comma" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta k" />
   </action>
@@ -179,6 +201,10 @@
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
   <action id="Play2.TypeInfo" />
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="shift alt tab" />
+    <keyboard-shortcut first-keystroke="alt dead_grave" />
+  </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
@@ -189,23 +215,32 @@
     <mouse-shortcut keystroke="control button2" />
     <keyboard-shortcut first-keystroke="alt h" />
   </action>
+  <action id="QuickTypeDefinition">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
   <action id="RenameFile">
-    <keyboard-shortcut first-keystroke="shift ctrl v" />
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="ReplaceInPath" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f9" />
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="meta alt r" />
   </action>
   <action id="RunClass">
-    <keyboard-shortcut first-keystroke="shift ctrl f10" />
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="Runner.CloseAllUnpinnedViews">
@@ -220,9 +255,13 @@
   <action id="ScalaConsole.Clean">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="shift meta a" />
+  </action>
   <action id="SearchEverywhere.PrevTab">
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
+  <action id="ServiceView.GroupByContributor" />
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="shift f11" />
     <keyboard-shortcut first-keystroke="ctrl alt b" />
@@ -243,6 +282,18 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f8" />
+    <keyboard-shortcut first-keystroke="meta alt s" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f8" />
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
   <action id="SwitcherIterateItems" />
   <action id="Synchronize">
     <keyboard-shortcut first-keystroke="alt y" />
@@ -256,14 +307,22 @@
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="meta alt b" />
   </action>
+  <action id="ToggleTemporaryLineBreakpoint">
+    <keyboard-shortcut first-keystroke="shift meta alt f8" />
+    <keyboard-shortcut first-keystroke="ctrl meta b" />
+  </action>
   <action id="Unsplit">
-    <keyboard-shortcut first-keystroke="ctrl u" />
+    <keyboard-shortcut first-keystroke="meta alt u" />
   </action>
   <action id="UnsplitAll">
-    <keyboard-shortcut first-keystroke="shift ctrl u" />
+    <keyboard-shortcut first-keystroke="shift meta alt u" />
   </action>
   <action id="UsageGrouping.FileStructure" />
   <action id="Vcs.QuickListPopupAction" />
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="meta alt g" />
+  </action>
+  <action id="ZoomCurrentWindow" />
   <action id="com.mnw.tabmover.actions.TogglePinOnAllOpenTabsAction">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>

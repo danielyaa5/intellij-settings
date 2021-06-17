@@ -139,6 +139,7 @@
   </action>
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift f3" />
+    <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
@@ -215,6 +216,10 @@
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="shift meta comma" />
   </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="alt tab" />
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta k" />
   </action>
@@ -227,7 +232,7 @@
   <action id="Play2.TypeInfo" />
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="shift alt tab" />
-    <keyboard-shortcut first-keystroke="alt dead_grave" />
+    <keyboard-shortcut first-keystroke="alt j" />
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="meta j" />

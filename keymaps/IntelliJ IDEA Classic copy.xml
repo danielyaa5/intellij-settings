@@ -207,10 +207,15 @@
   <action id="IdeaVim.ReloadVimRc.reload" />
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
-  <action id="JumpToLastChange" />
+  <action id="JumpToLastChange">
+    <keyboard-shortcut first-keystroke="meta b" />
+  </action>
   <action id="JumpToLastWindow">
     <keyboard-shortcut first-keystroke="f12" />
     <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="shift meta b" />
   </action>
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="ctrl j" />

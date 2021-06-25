@@ -54,6 +54,12 @@
     <keyboard-shortcut first-keystroke="meta slash" />
   </action>
   <action id="Console.TableResult.DeleteRows" />
+  <action id="CopyPaths">
+    <keyboard-shortcut first-keystroke="shift meta alt c" />
+  </action>
+  <action id="CopyReference">
+    <keyboard-shortcut first-keystroke="meta alt c" />
+  </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="meta alt d" />
   </action>
@@ -197,6 +203,7 @@
     <mouse-shortcut keystroke="shift meta button1" />
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
+  <action id="GuiDesigner.CreateListener" />
   <action id="GuiDesigner.ShrinkSelection">
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
@@ -210,6 +217,7 @@
   <action id="IdeaVim.ReloadVimRc.reload" />
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
+  <action id="IntroduceConstant" />
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
@@ -224,6 +232,7 @@
     <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
   <action id="MethodHierarchy.ImplementMethodAction" />
+  <action id="MethodHierarchy.OverrideMethodAction" />
   <action id="MethodUp">
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
@@ -237,9 +246,8 @@
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta k" />
   </action>
-  <action id="OverrideMethods">
-    <keyboard-shortcut first-keystroke="shift meta o" />
-  </action>
+  <action id="OptimizeImports" />
+  <action id="OverrideMethods" />
   <action id="PinActiveTab">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
@@ -378,8 +386,16 @@
   <action id="com.mnw.tabmover.actions.TogglePinOnAllOpenTabsAction">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
+  <action id="uk.co.ben_gibson.git.link.UI.Action.Menu.MenuAction.Browser">
+    <keyboard-shortcut first-keystroke="meta alt o" />
+  </action>
   <action id="uk.co.ben_gibson.git.link.UI.Action.Menu.MenuAction.Clipboard">
-    <keyboard-shortcut first-keystroke="shift meta c" />
-    <keyboard-shortcut first-keystroke="shift ctrl c" />
+    <keyboard-shortcut first-keystroke="shift meta o" />
+  </action>
+  <action id="uk.co.ben_gibson.git.link.UI.Action.VcsLog.BrowserVcsAction">
+    <keyboard-shortcut first-keystroke="meta alt o" />
+  </action>
+  <action id="uk.co.ben_gibson.git.link.UI.Action.VcsLog.ClipboardVcsAction">
+    <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
 </keymap>

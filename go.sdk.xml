@@ -1,10 +1,9 @@
 <application>
   <component name="GoSdkList">
-    <sdk-url>
+    <sdk-path>
       <set>
-        <option value="file:///usr/local/go" />
-        <option value="file:///usr/local/go1.16.3.darwin-amd64" />
+        <option value="/usr/local/go1.16.3.darwin-amd64" />
       </set>
-    </sdk-url>
+    </sdk-path>
   </component>
 </application>

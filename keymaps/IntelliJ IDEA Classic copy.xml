@@ -6,6 +6,9 @@
     <keyboard-shortcut first-keystroke="ctrl o" />
     <keyboard-shortcut first-keystroke="alt o" />
   </action>
+  <action id="Arrangement.Rule.Add">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="AutoIndentLines" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta h" />
@@ -157,6 +160,9 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="Generate.Missing.Members.ES6" />
   <action id="Generate.Missing.Members.TypeScript" />
   <action id="GotoAction">
@@ -232,6 +238,12 @@
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="shift meta comma" />
   </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt tab" />
     <keyboard-shortcut first-keystroke="alt k" />
@@ -264,6 +276,9 @@
   </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift ctrl v" />
+  </action>
+  <action id="RemoteHost.NewRemoteItem">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />

@@ -194,9 +194,7 @@
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="meta alt s" />
   </action>
-  <action id="GotoSymbol">
-    <keyboard-shortcut first-keystroke="shift meta n" />
-  </action>
+  <action id="GotoSymbol" />
   <action id="GotoTest">
     <keyboard-shortcut first-keystroke="ctrl alt t" />
   </action>
@@ -243,6 +241,9 @@
   </action>
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="NewScratchFile">
+    <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt tab" />

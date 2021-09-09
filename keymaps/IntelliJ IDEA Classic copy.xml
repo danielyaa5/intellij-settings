@@ -335,6 +335,9 @@
   <action id="ShowErrorDescription">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
+  <action id="ShowProjectStructureSettings">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+  </action>
   <action id="ShowUsages">
     <keyboard-shortcut first-keystroke="meta alt f7" />
     <keyboard-shortcut first-keystroke="meta u" />

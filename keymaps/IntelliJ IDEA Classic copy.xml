@@ -330,7 +330,6 @@
   </action>
   <action id="ServiceView.GroupByContributor" />
   <action id="ShowBookmarks">
-    <keyboard-shortcut first-keystroke="shift f11" />
     <keyboard-shortcut first-keystroke="ctrl alt b" />
   </action>
   <action id="ShowErrorDescription">

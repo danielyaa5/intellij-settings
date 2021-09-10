@@ -218,6 +218,9 @@
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
   <action id="IntroduceConstant" />
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="shift alt v" />
+  </action>
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
@@ -295,7 +298,7 @@
     <keyboard-shortcut first-keystroke="alt v" />
   </action>
   <action id="RenameFile">
-    <keyboard-shortcut first-keystroke="shift alt v" />
+    <keyboard-shortcut first-keystroke="meta alt v" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />

@@ -375,6 +375,9 @@
     <keyboard-shortcut first-keystroke="f8" />
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+  </action>
   <action id="SwitcherIterateItems" />
   <action id="Synchronize">
     <keyboard-shortcut first-keystroke="alt y" />

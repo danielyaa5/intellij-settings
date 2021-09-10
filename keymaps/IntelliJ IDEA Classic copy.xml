@@ -368,15 +368,14 @@
     <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
   <action id="StepOut">
-    <keyboard-shortcut first-keystroke="shift f8" />
-    <keyboard-shortcut first-keystroke="meta alt s" />
+    <keyboard-shortcut first-keystroke="meta alt a" />
   </action>
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f8" />
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="Stop">
-    <keyboard-shortcut first-keystroke="ctrl alt s" />
+    <keyboard-shortcut first-keystroke="meta alt q" />
   </action>
   <action id="SwitcherIterateItems" />
   <action id="Synchronize">

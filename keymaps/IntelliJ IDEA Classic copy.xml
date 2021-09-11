@@ -369,14 +369,12 @@
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="StepInto">
-    <keyboard-shortcut first-keystroke="f7" />
     <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
   <action id="StepOut">
     <keyboard-shortcut first-keystroke="meta alt a" />
   </action>
   <action id="StepOver">
-    <keyboard-shortcut first-keystroke="f8" />
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="Stop">

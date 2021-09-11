@@ -258,11 +258,14 @@
     <keyboard-shortcut first-keystroke="meta 4" />
   </action>
   <action id="NextSplitter">
-    <keyboard-shortcut first-keystroke="alt tab" />
     <keyboard-shortcut first-keystroke="alt k" />
+    <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta k" />
+  </action>
+  <action id="NextWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt f13" />
   </action>
   <action id="OptimizeImports" />
   <action id="OverrideMethods" />
@@ -271,12 +274,13 @@
   </action>
   <action id="Play2.TypeInfo" />
   <action id="PrevSplitter">
-    <keyboard-shortcut first-keystroke="shift alt tab" />
     <keyboard-shortcut first-keystroke="alt j" />
+    <keyboard-shortcut first-keystroke="shift meta back_quote" />
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
+  <action id="PreviousWindow" />
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="shift alt d" />
   </action>

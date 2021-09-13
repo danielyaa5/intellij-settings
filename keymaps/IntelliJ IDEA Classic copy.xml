@@ -156,6 +156,9 @@
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="shift meta u" />
   </action>
+  <action id="FindUsagesInFile">
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
+  </action>
   <action id="FindWordAtCaret">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
@@ -271,6 +274,7 @@
   </action>
   <action id="OptimizeImports" />
   <action id="OverrideMethods" />
+  <action id="PasteMultiple" />
   <action id="PinActiveTab">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
@@ -300,7 +304,7 @@
   </action>
   <action id="RemoteHostView.Rename" />
   <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="alt v" />
+    <keyboard-shortcut first-keystroke="shift meta v" />
   </action>
   <action id="RenameFile">
     <keyboard-shortcut first-keystroke="meta alt v" />
@@ -354,7 +358,6 @@
     <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
   <action id="ShowUsages">
-    <keyboard-shortcut first-keystroke="meta alt f7" />
     <keyboard-shortcut first-keystroke="meta u" />
   </action>
   <action id="SmartUnSelect">

@@ -105,6 +105,39 @@
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2and3" />
       </SOURCES>
     </library>
+    <library name="Python 3.9 interpreter library">
+      <CLASSES>
+        <root url="file:///usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9" />
+        <root url="file:///usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload" />
+        <root url="file://$USER_HOME$/Library/Python/3.9/lib/python/site-packages" />
+        <root url="file:///usr/local/lib/python3.9/site-packages" />
+        <root url="jar:///usr/local/lib/python3.9/site-packages/qtfaststart2-2.1.1-py3.9.egg!/" />
+        <root url="file:///usr/local/Cellar/protobuf/3.15.8/libexec/lib/python3.9/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2020.1/python_stubs/-1199943124" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.7" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2and3" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9" />
+        <root url="file:///usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload" />
+        <root url="file://$USER_HOME$/Library/Python/3.9/lib/python/site-packages" />
+        <root url="file:///usr/local/lib/python3.9/site-packages" />
+        <root url="jar:///usr/local/lib/python3.9/site-packages/qtfaststart2-2.1.1-py3.9.egg!/" />
+        <root url="file:///usr/local/Cellar/protobuf/3.15.8/libexec/lib/python3.9/site-packages" />
+        <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2020.1/python_stubs/-1199943124" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.7" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2and3" />
+      </SOURCES>
+    </library>
     <library name="scala-sdk-2.13.5" type="Scala">
       <properties>
         <language-level>Scala_2_13</language-level>

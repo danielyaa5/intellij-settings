@@ -310,7 +310,6 @@
   </action>
   <action id="ReplaceInPath" />
   <action id="Resume">
-    <keyboard-shortcut first-keystroke="f9" />
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
   <action id="Run">

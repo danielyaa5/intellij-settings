@@ -16,6 +16,9 @@
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta h" />
   </action>
+  <action id="Blaze.PartialSync">
+    <keyboard-shortcut first-keystroke="shift meta alt s" />
+  </action>
   <action id="ChangeSignature">
     <keyboard-shortcut first-keystroke="ctrl v" />
   </action>

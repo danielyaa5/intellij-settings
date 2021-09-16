@@ -146,9 +146,11 @@
     <keyboard-shortcut first-keystroke="shift alt h" />
   </action>
   <action id="ExternalSystem.ProjectRefreshAction" />
-  <action id="Find" />
-  <action id="FindInPath">
+  <action id="Find">
     <keyboard-shortcut first-keystroke="meta f" />
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="alt f" />
   </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="ctrl g" />
@@ -227,6 +229,8 @@
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
   <action id="IntroduceConstant" />
+  <action id="IntroduceField" />
+  <action id="IntroduceProperty" />
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="shift alt v" />
   </action>
@@ -260,7 +264,7 @@
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="NewFile">
-    <keyboard-shortcut first-keystroke="alt f" />
+    <keyboard-shortcut first-keystroke="meta alt f" />
   </action>
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="shift meta n" />

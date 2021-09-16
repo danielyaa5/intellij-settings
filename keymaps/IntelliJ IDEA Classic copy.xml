@@ -89,6 +89,11 @@
     <keyboard-shortcut first-keystroke="ctrl o" />
     <keyboard-shortcut first-keystroke="alt o" />
   </action>
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="shift alt button1" />
+    <mouse-shortcut keystroke="shift meta alt button1" />
+  </action>
+  <action id="EditorAddRectangularSelectionOnMouseDrag" />
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="alt close_bracket" />
   </action>

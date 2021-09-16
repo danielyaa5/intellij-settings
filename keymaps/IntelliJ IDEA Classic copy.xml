@@ -432,6 +432,7 @@
   <action id="com.mnw.tabmover.actions.TogglePinOnAllOpenTabsAction">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
+  <action id="hg4idea.QGotoFromPatches" />
   <action id="uk.co.ben_gibson.git.link.UI.Action.Menu.MenuAction.Browser">
     <keyboard-shortcut first-keystroke="meta alt o" />
   </action>

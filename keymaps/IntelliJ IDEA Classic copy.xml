@@ -265,6 +265,9 @@
   <action id="ModifyObject">
     <keyboard-shortcut first-keystroke="meta f6" />
   </action>
+  <action id="Move">
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="shift meta comma" />
   </action>
@@ -444,6 +447,9 @@
   </action>
   <action id="momomo.com.intellij.plugins.Move.actions.MoveTab.MoveTab$Right">
     <keyboard-shortcut first-keystroke="alt period" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.PopupChoiceAction">
+    <keyboard-shortcut first-keystroke="shift alt m" />
   </action>
   <action id="uk.co.ben_gibson.git.link.UI.Action.Menu.MenuAction.Browser">
     <keyboard-shortcut first-keystroke="meta alt o" />

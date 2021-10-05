@@ -1,7 +1,7 @@
 <application>
   <component name="PlantUmlSettingsNew">
     <option name="PLANTUML_LIMIT_SIZE" value="8192" />
-    <option name="cacheSize" value="0" />
+    <option name="cacheSize" value="1" />
     <option name="customPlantumlJarPath" value="$USER_HOME$/Desktop/plantuml.jar" />
     <option name="includedPaths" value="" />
     <option name="lastBundledVersion" value="1.2021.00" />

@@ -6,6 +6,9 @@
     <keyboard-shortcut first-keystroke="ctrl o" />
     <keyboard-shortcut first-keystroke="alt o" />
   </action>
+  <action id="ActivatePlantUMLToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
   <action id="ActivatePythonConsoleToolWindow">
     <keyboard-shortcut first-keystroke="meta 4" />
   </action>

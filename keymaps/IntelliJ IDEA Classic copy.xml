@@ -4,7 +4,6 @@
   </action>
   <action id="$LRU">
     <keyboard-shortcut first-keystroke="ctrl o" />
-    <keyboard-shortcut first-keystroke="alt o" />
   </action>
   <action id="ActivatePlantUMLToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
@@ -87,6 +86,7 @@
   <action id="Debugger.StepOutOfBlock">
     <keyboard-shortcut first-keystroke="shift meta alt s" />
   </action>
+  <action id="Django.RunManageTaskAction" />
   <action id="EditBookmark">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
   </action>
@@ -96,7 +96,6 @@
   </action>
   <action id="Editor LRU">
     <keyboard-shortcut first-keystroke="ctrl o" />
-    <keyboard-shortcut first-keystroke="alt o" />
   </action>
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="shift alt button1" />
@@ -320,6 +319,13 @@
   <action id="QuickTypeDefinition">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
+  <action id="RecentChangedFiles">
+    <keyboard-shortcut first-keystroke="ctrl alt e" />
+  </action>
+  <action id="RecentChanges" />
+  <action id="RecentLocations">
+    <keyboard-shortcut first-keystroke="shift alt e" />
+  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
@@ -336,9 +342,11 @@
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
-  <action id="ReplaceInPath" />
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
   <action id="Resume">
-    <keyboard-shortcut first-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="alt r" />
   </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl f" />
@@ -397,18 +405,18 @@
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="StepInto">
-    <keyboard-shortcut first-keystroke="shift meta s" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt s" />
   </action>
   <action id="StepOut">
-    <keyboard-shortcut first-keystroke="meta alt a" />
+    <keyboard-shortcut first-keystroke="alt o" />
   </action>
   <action id="StepOver">
-    <keyboard-shortcut first-keystroke="meta s" />
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
-  <action id="Stop">
-    <keyboard-shortcut first-keystroke="shift meta r" />
+  <action id="Stop" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox">
+    <keyboard-shortcut first-keystroke="shift meta e" />
   </action>
-  <action id="SwitcherIterateItems" />
   <action id="Synchronize">
     <keyboard-shortcut first-keystroke="alt y" />
   </action>
@@ -419,6 +427,7 @@
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
+  <action id="ToggleFindInSelection" />
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="meta alt b" />
   </action>

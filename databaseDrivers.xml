@@ -6,12 +6,6 @@
     <driver id="clickhouse">
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="couchbase_query">
-      <option name="auto-sync" value="true" />
-    </driver>
-    <driver id="db2.11">
-      <option name="auto-sync" value="false" />
-    </driver>
     <driver id="db2">
       <option name="auto-sync" value="false" />
     </driver>
@@ -67,9 +61,6 @@
     <driver id="mysql">
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="mysql_aurora">
-      <option name="auto-sync" value="true" />
-    </driver>
     <driver id="oracle">
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="false" />
@@ -97,5 +88,15 @@
     <driver id="vertica">
       <option name="auto-sync" value="true" />
     </driver>
+    <driver id="couchbase_query" name="">
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="db2.11" name="">
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="mysql_aurora" name="">
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="com.simba.googlebigquery.jdbc42.Driver" name="com.simba.googlebigquery.jdbc42.Driver" driver-class="com.simba.googlebigquery.jdbc42.Driver" />
   </component>
 </application>

@@ -450,13 +450,16 @@
     <keyboard-shortcut first-keystroke="meta alt g" />
   </action>
   <action id="ZoomCurrentWindow" />
+  <action id="com.mnw.tabmover.actions.MoveTabDownAction">
+    <keyboard-shortcut first-keystroke="alt period" />
+  </action>
+  <action id="com.mnw.tabmover.actions.MoveTabUpAction">
+    <keyboard-shortcut first-keystroke="alt comma" />
+  </action>
   <action id="com.mnw.tabmover.actions.TogglePinOnAllOpenTabsAction">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
   <action id="hg4idea.QGotoFromPatches" />
-  <action id="momomo.com.intellij.plugins.Move.actions.MoveTab.MoveTab$Left">
-    <keyboard-shortcut first-keystroke="alt comma" />
-  </action>
   <action id="momomo.com.intellij.plugins.Move.actions.MoveTab.MoveTab$Right">
     <keyboard-shortcut first-keystroke="alt period" />
   </action>

@@ -68,7 +68,8 @@
   <action id="CopyPaths">
     <keyboard-shortcut first-keystroke="shift meta alt c" />
   </action>
-  <action id="CopyReference">
+  <action id="CopyReference" />
+  <action id="CopyReferencePopupGroup">
     <keyboard-shortcut first-keystroke="meta alt c" />
   </action>
   <action id="DatabaseView.CopyDdlAction">

@@ -1,19 +1,26 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
+    <option name="customScope" value="Scratches and Consoles" />
+    <option name="defaultScopeName" value="Scratches and Consoles" />
     <option name="localRegularExpressions" value="true" />
     <option name="regularExpressions" value="true" />
     <option name="showResultsInSeparateView" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="SEARCH_SCOPE" value="Scratches and Consoles" />
     <mask>!README</mask>
     <mask>!README.MD,!CHANGES.MD</mask>
     <mask>*</mask>
     <mask>*.go</mask>
     <mask>*.yaml</mask>
     <mask>!*.log</mask>
+    <mask>*.proto</mask>
+    <mask>*.css</mask>
+    <mask>*.html</mask>
+    <mask>*.xml</mask>
+    <mask>*.jsp</mask>
+    <mask>*.properties</mask>
+    <mask>*.java</mask>
   </component>
 </application>

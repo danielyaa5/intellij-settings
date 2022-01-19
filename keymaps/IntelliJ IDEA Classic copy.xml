@@ -446,6 +446,7 @@
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="shift meta alt u" />
   </action>
+  <action id="UsageGrouping.DirectoryStructure" />
   <action id="UsageGrouping.FileStructure" />
   <action id="Vcs.QuickListPopupAction" />
   <action id="Vcs.ShowTabbedFileHistory">

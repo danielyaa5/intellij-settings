@@ -345,11 +345,9 @@
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="ReplaceInPath">
-    <keyboard-shortcut first-keystroke="shift meta r" />
-  </action>
-  <action id="Resume">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
+  <action id="Resume" />
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>

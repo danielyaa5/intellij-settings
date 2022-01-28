@@ -336,10 +336,10 @@
   </action>
   <action id="RemoteHostView.Rename" />
   <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="shift meta v" />
+    <keyboard-shortcut first-keystroke="meta alt v" />
   </action>
   <action id="RenameFile">
-    <keyboard-shortcut first-keystroke="meta alt v" />
+    <keyboard-shortcut first-keystroke="shift meta v" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />

@@ -11,6 +11,9 @@
   <action id="ActivatePythonConsoleToolWindow">
     <keyboard-shortcut first-keystroke="meta 4" />
   </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="meta alt t" />
+  </action>
   <action id="Arrangement.Rule.Add">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -171,6 +174,7 @@
   </action>
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
+    <keyboard-shortcut first-keystroke="meta enter" />
   </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="shift meta u" />
@@ -335,20 +339,18 @@
   </action>
   <action id="RemoteHostView.Rename" />
   <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="shift meta v" />
+    <keyboard-shortcut first-keystroke="meta alt v" />
   </action>
   <action id="RenameFile">
-    <keyboard-shortcut first-keystroke="meta alt v" />
+    <keyboard-shortcut first-keystroke="shift meta v" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="ReplaceInPath">
-    <keyboard-shortcut first-keystroke="shift meta r" />
-  </action>
-  <action id="Resume">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
+  <action id="Resume" />
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
@@ -415,6 +417,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
   <action id="Stop" />
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
   <action id="SwitcherRecentEditedChangedToggleCheckBox">
     <keyboard-shortcut first-keystroke="shift meta e" />
   </action>
@@ -445,6 +450,7 @@
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="shift meta alt u" />
   </action>
+  <action id="UsageGrouping.DirectoryStructure" />
   <action id="UsageGrouping.FileStructure" />
   <action id="Vcs.QuickListPopupAction" />
   <action id="Vcs.ShowTabbedFileHistory">

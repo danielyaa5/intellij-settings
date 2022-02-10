@@ -5,6 +5,7 @@
         <option name="suppressed">
           <set>
             <option value="for playground and" />
+            <option value=":" />
           </set>
         </option>
       </SuppressingContext>

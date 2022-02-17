@@ -6,6 +6,7 @@
           <set>
             <option value="for playground and" />
             <option value=":" />
+            <option value="markdown hyperlink" />
           </set>
         </option>
       </SuppressingContext>

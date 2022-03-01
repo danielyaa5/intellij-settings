@@ -12,7 +12,7 @@
     <keyboard-shortcut first-keystroke="meta 4" />
   </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="meta alt t" />
+    <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="Arrangement.Rule.Add">
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -351,9 +351,6 @@
   </action>
   <action id="RenameFile">
     <keyboard-shortcut first-keystroke="shift meta v" />
-  </action>
-  <action id="ReopenClosedTab">
-    <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="alt r" />

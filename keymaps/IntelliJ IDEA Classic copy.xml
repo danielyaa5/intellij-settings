@@ -480,6 +480,9 @@
   <action id="com.mnw.tabmover.actions.TogglePinOnAllOpenTabsAction">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
+  <action id="copilot.applyInlays">
+    <keyboard-shortcut first-keystroke="alt tab" />
+  </action>
   <action id="hg4idea.QGotoFromPatches" />
   <action id="momomo.com.intellij.plugins.Move.actions.MoveTab.MoveTab$Right">
     <keyboard-shortcut first-keystroke="alt period" />

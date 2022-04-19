@@ -1,0 +1,5 @@
+<application>
+  <component name="PyEnvPlugin">
+    <option name="pathToPyenv" value="/usr/local/Cellar/pyenv/2.2.5/libexec/pyenv" />
+  </component>
+</application>

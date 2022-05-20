@@ -203,6 +203,17 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="ski.chrzanow.foldableprojectview">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="uk.co.ben-gibson.remote.repository.mapper">
           <value>
             <PluginData>

@@ -4,7 +4,10 @@
       <SuppressingContext>
         <option name="suppressed">
           <set>
+            <option value="markdown hyperlink" />
             <option value="for playground and" />
+            <option value=":" />
+            <option value="had Scale" />
           </set>
         </option>
       </SuppressingContext>

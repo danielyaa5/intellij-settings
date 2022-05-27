@@ -2,15 +2,23 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping ext="srcjar" type="ARCHIVE" />
-      <mapping pattern="render_prevalence_query" type="AUTO_DETECTED" />
+      <mapping pattern="OWNERS" type="AUTO_DETECTED" />
       <mapping pattern="imports" type="AUTO_DETECTED" />
+      <mapping pattern="render_prevalence_query" type="AUTO_DETECTED" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="x" type="PLAIN_TEXT" />
-      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
-      <removed_mapping ext="psd" approved="true" type="Image" />
       <mapping ext="plantuml" type="PlantUML file" />
+      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="psd" approved="true" type="Image" />
+      <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
+      <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".env" approved="true" type=".env file" />
+      <removed_mapping pattern=".env" approved="true" type="Env File" />
     </extensionMap>
   </component>
 </application>

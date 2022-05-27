@@ -11,6 +11,9 @@
   <action id="ActivatePythonConsoleToolWindow">
     <keyboard-shortcut first-keystroke="meta 4" />
   </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
   <action id="Arrangement.Rule.Add">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -50,6 +53,9 @@
   </action>
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="shift space" />
   </action>
   <action id="CollapseRegionRecursively">
     <keyboard-shortcut first-keystroke="ctrl minus" />
@@ -160,6 +166,7 @@
     <keyboard-shortcut first-keystroke="shift alt h" />
   </action>
   <action id="ExternalSystem.ProjectRefreshAction" />
+  <action id="FileChooser.NewFolder" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta f" />
   </action>
@@ -171,6 +178,7 @@
   </action>
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
+    <keyboard-shortcut first-keystroke="meta enter" />
   </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="shift meta u" />
@@ -237,9 +245,10 @@
     <keyboard-shortcut first-keystroke="ctrl escape" />
   </action>
   <action id="HideAllWindows">
-    <keyboard-shortcut first-keystroke="alt escape" />
+    <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="IdeaVim.ReloadVimRc.reload" />
+  <action id="Images.Editor.ToggleGrid" />
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
   <action id="IntroduceConstant" />
@@ -311,6 +320,9 @@
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="PreviousWindow" />
+  <action id="ProblemsView.QuickFixes">
+    <keyboard-shortcut first-keystroke="meta quote" />
+  </action>
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="shift alt d" />
   </action>
@@ -335,20 +347,15 @@
   </action>
   <action id="RemoteHostView.Rename" />
   <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="shift meta v" />
-  </action>
-  <action id="RenameFile">
     <keyboard-shortcut first-keystroke="meta alt v" />
   </action>
-  <action id="ReopenClosedTab">
-    <keyboard-shortcut first-keystroke="shift meta t" />
+  <action id="RenameFile">
+    <keyboard-shortcut first-keystroke="shift meta v" />
   </action>
   <action id="ReplaceInPath">
-    <keyboard-shortcut first-keystroke="shift meta r" />
-  </action>
-  <action id="Resume">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
+  <action id="Resume" />
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
@@ -384,17 +391,26 @@
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="ServiceView.GroupByContributor" />
+  <action id="SetShortcutAction">
+    <keyboard-shortcut first-keystroke="meta quote" />
+  </action>
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="ctrl alt b" />
   </action>
   <action id="ShowErrorDescription">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="meta quote" />
+  </action>
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
   <action id="ShowUsages">
     <keyboard-shortcut first-keystroke="meta u" />
+  </action>
+  <action id="SmartTypeCompletion">
+    <keyboard-shortcut first-keystroke="shift meta space" />
   </action>
   <action id="SmartUnSelect">
     <keyboard-shortcut first-keystroke="shift meta i" />
@@ -415,6 +431,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
   <action id="Stop" />
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
   <action id="SwitcherRecentEditedChangedToggleCheckBox">
     <keyboard-shortcut first-keystroke="shift meta e" />
   </action>
@@ -445,6 +464,7 @@
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="shift meta alt u" />
   </action>
+  <action id="UsageGrouping.DirectoryStructure" />
   <action id="UsageGrouping.FileStructure" />
   <action id="Vcs.QuickListPopupAction" />
   <action id="Vcs.ShowTabbedFileHistory">
@@ -460,6 +480,13 @@
   <action id="com.mnw.tabmover.actions.TogglePinOnAllOpenTabsAction">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
+  <action id="copilot.applyInlays">
+    <keyboard-shortcut first-keystroke="alt tab" />
+  </action>
+  <action id="copilot.cycleNextInlays">
+    <keyboard-shortcut first-keystroke="shift alt tab" />
+  </action>
+  <action id="copilot.requestCompletions" />
   <action id="hg4idea.QGotoFromPatches" />
   <action id="momomo.com.intellij.plugins.Move.actions.MoveTab.MoveTab$Right">
     <keyboard-shortcut first-keystroke="alt period" />

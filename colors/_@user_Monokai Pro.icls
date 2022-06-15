@@ -1,10 +1,10 @@
-<scheme name="Monokai Pro copy1" version="142" parent_scheme="Darcula">
+<scheme name="_@user_Monokai Pro" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2021-05-04T16:23:52</property>
+    <property name="created">2022-06-14T21:14:03</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2021.1.0.0</property>
+    <property name="ideVersion">2022.1.2.0.0</property>
     <property name="modified">2022-06-14T21:18:38</property>
-    <property name="originalScheme">_@user_Monokai Pro</property>
+    <property name="originalScheme">Monokai Pro</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="a9dc76" />
@@ -42,6 +42,7 @@
     <option name="INFORMATION_HINT" value="403e41" />
     <option name="LINE_NUMBERS_COLOR" value="5b595c" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="c1c0c0" />
+    <option name="LOOKUP_COLOR" value="403e41" />
     <option name="METHOD_SEPARATORS_COLOR" value="59575a" />
     <option name="MODIFIED_LINES_COLOR" value="fc9867" />
     <option name="MT_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
@@ -53,7 +54,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="403e41" />
     <option name="SELECTED_INDENT_GUIDE" value="78dce8" />
     <option name="SELECTED_TEARLINE_COLOR" value="ffd866" />
-    <option name="SELECTION_BACKGROUND" value="565356" />
+    <option name="SELECTION_BACKGROUND" value="5b595c" />
     <option name="SEPARATOR_ABOVE_COLOR" value="363337" />
     <option name="SEPARATOR_BELOW_COLOR" value="363337" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="403e41" />
@@ -2607,14 +2608,30 @@
         <option name="FOREGROUND" value="939293" />
       </value>
     </option>
+    <option name="NG.BANANA_BINDING_ATTR_NAME">
+      <value>
+        <option name="FOREGROUND" value="78dce8" />
+      </value>
+    </option>
+    <option name="NG.EVENT_BINDING_ATTR_NAME">
+      <value>
+        <option name="FOREGROUND" value="78dce8" />
+      </value>
+    </option>
     <option name="NG.EXPANSION_FORM">
       <value>
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="NG.EXPRESSIONS">
+    <option name="NG.PROPERTY_BINDING_ATTR_NAME">
       <value>
-        <option name="EFFECT_TYPE" value="5" />
+        <option name="FOREGROUND" value="78dce8" />
+      </value>
+    </option>
+    <option name="NG.TEMPLATE_BINDINGS_ATTR_NAME">
+      <value>
+        <option name="FOREGROUND" value="78dce8" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="NOT_TOP_FRAME_ATTRIBUTES">
@@ -3332,7 +3349,6 @@
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fcfcfa" />
         <option name="BACKGROUND" value="403e41" />
       </value>
     </option>
@@ -3477,13 +3493,14 @@
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="0" />
-        <option name="BACKGROUND" value="ffd866" />
+        <option name="FOREGROUND" value="fcfcfa" />
+        <option name="BACKGROUND" value="5b595c" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="87cefa" />
+        <option name="ERROR_STRIPE_COLOR" value="87cefa" />
       </value>
     </option>
     <option name="TS.MODULE_NAME">
@@ -3573,7 +3590,6 @@
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fcfcfa" />
         <option name="BACKGROUND" value="403e41" />
       </value>
     </option>

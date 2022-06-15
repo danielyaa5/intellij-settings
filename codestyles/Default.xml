@@ -16,6 +16,7 @@
     <option name="USE_GENERIC_STYLE" value="true" />
   </SQLiteCodeStyleSettings>
   <TypeScriptCodeStyleSettings version="0">
+    <option name="JSDOC_INCLUDE_TYPES" value="true" />
     <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />

@@ -3,9 +3,6 @@
     <local-interpreter path="$USER_HOME$/.jenv/shims/node">
       <version-cache last-modified="0" />
     </local-interpreter>
-    <local-interpreter path="/usr/local/bin/node">
-      <version-cache version="17.9.0" last-modified="1650042854557" />
-    </local-interpreter>
     <local-interpreter path="$USER_HOME$/.nvm/versions/node/v18.2.0/bin/node">
       <version-cache version="18.2.0" last-modified="1652793710000" />
     </local-interpreter>
@@ -13,6 +10,9 @@
       <version-cache version="18.1.0" last-modified="1651563715000" />
     </local-interpreter>
     <local-interpreter path="/usr/local/Cellar/node/17.9.0/bin/node">
+      <version-cache version="17.9.0" last-modified="1650042854557" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/bin/node">
       <version-cache version="17.9.0" last-modified="1650042854557" />
     </local-interpreter>
     <local-interpreter path="$USER_HOME$/.nvm/versions/node/v17.3.1/bin/node">

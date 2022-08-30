@@ -1,0 +1,16 @@
+<application>
+  <component name="GraziConfig">
+    <option name="suppressingContext">
+      <SuppressingContext>
+        <option name="suppressed">
+          <set>
+            <option value="markdown hyperlink" />
+            <option value="for playground and" />
+            <option value=":" />
+            <option value="had Scale" />
+          </set>
+        </option>
+      </SuppressingContext>
+    </option>
+  </component>
+</application>

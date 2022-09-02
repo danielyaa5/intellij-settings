@@ -2,5 +2,6 @@
   <component name="uk.co.ben_gibson.git.link.SettingsState">
     <option name="hits" value="60" />
     <option name="lastVersion" value="4.1.8" />
+    <option name="showHostPoll" value="false" />
   </component>
 </application>

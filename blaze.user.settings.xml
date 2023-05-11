@@ -1,6 +1,7 @@
 <application>
   <component name="BlazeUserSettings">
     <option name="bazelBinaryPath" value="/usr/local/bin/bzl" />
+    <option name="showBlazeConsoleOnSync" value="On error" />
     <option name="syncStatusPopupShown" value="true" />
   </component>
 </application>
